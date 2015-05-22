@@ -1,3 +1,6 @@
+
+int val = 500; //Temps mS
+
 void setup() 
 {                
   pinMode(5, OUTPUT);  //Terminal 5 definit com a sortida 
@@ -22,7 +25,7 @@ void loop()
   digitalWrite(11, HIGH); //Sortida  digital ON
   digitalWrite(12, LOW); //Sortida  digital OFF
   
-delay(1500); // Temps (ms)
+delay(val); // Temps (ms)
   
   digitalWrite(5, LOW);  //Sortida  digital OFF
   digitalWrite(6, HIGH);  //Sortida  digital ON
@@ -33,6 +36,6 @@ delay(1500); // Temps (ms)
   digitalWrite(11, LOW); //Sortida  digital OFF
   digitalWrite(12, HIGH); //Sortida  digital ON
   
-delay(1500);  // Temps (ms)
+delay(val);  // Temps (ms)
 }
 //Quim Moreno

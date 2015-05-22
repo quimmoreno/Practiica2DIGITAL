@@ -1,3 +1,5 @@
+int ms = 500; // Temps
+
 
 void setup() 
 {                
@@ -23,7 +25,7 @@ void loop()
   digitalWrite(11, HIGH); //Sortida  digital ON
   digitalWrite(12, HIGH); //Sortida  digital ON
   
-delay(1500); // Temps (ms)
+delay(ms); // Temps (ms)
   
   digitalWrite(5, LOW);  //Sortida  digital OFF
   digitalWrite(6, LOW);  //Sortida  digital OFF
@@ -34,6 +36,6 @@ delay(1500); // Temps (ms)
   digitalWrite(11, LOW); //Sortida  digital OFF
   digitalWrite(12, LOW); //Sortida  digital OFF
   
-delay(1500);  // Temps (ms)
+delay(ms);  // Temps (ms)
 }
 //Quim Moreno
